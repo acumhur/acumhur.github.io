@@ -13,6 +13,6 @@ async function start(cur_mode) {
     
     //warm up 
     s = model.predict(tf.zeros([1, 28, 28, 1]))
-    console.log(s);
+    console.log(5+6);
 }
 
