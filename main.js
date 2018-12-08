@@ -12,7 +12,7 @@ async function start(cur_mode) {
     model = await tf.loadModel('model/model.json')
     
     //warm up 
-    s = model.predict(tf.zeros([3,28]))
+    s = model.predict(tf.zeros([1,3,28]))
     console.log(5+6);
 }
 
